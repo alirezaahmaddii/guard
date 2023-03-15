@@ -1,0 +1,16 @@
+<div>
+  <div>
+    <input type="text" [(ngModel)]="data.email">
+  </div>
+  <span>{{data.email}}</span>
+  <div>
+    <input type="password" [(ngModel)]="data.password">
+    <span>{{ data.password }}</span>
+  </div>
+  <div (click)="join()">
+    <button>Login</button>
+  </div>
+  <div (click)="joinPatient()">
+    <button>Login For Patient</button>
+  </div>
+</div>

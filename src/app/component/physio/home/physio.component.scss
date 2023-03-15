@@ -1,0 +1,101 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+svg path {
+  transition: 0.3s all ease-in-out;
+}
+
+@media (hover: hover) {
+  svg path:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+}
+
+.noClick {
+  pointer-events: none;
+}
+
+.unactive {
+  fill: white !important;
+}
+
+.armBackRight {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+input[type="radio"] {
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+label {
+  cursor: pointer;
+}
+
+.complete {
+  background: transparent !important;
+  border: 1px dashed #4d98f0 !important;
+}
+
+.current-number {
+  background-color: #50cd89 !important;
+}
+
+.previous-btn {
+  .arrow-left {
+    fill: #00aaf9;
+  }
+
+  &:hover {
+    .arrow-left {
+      fill: white !important;
+    }
+  }
+}
+
+.space-height {
+  line-height: 3;
+}
+
+.myShape {
+  background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+  height: 50vh;
+}
+
+.myShape,
+.remove-all,
+.choiceType-text {
+  transition: 0.8s all ease-in-out;
+}
+
+.text-info-purple {
+  color: #7239ea;
+}
+
+.mr-1 {
+  margin-right: 0.25rem;
+}
+
+
+.good-status {
+  padding: 2px 25px;
+  border-radius: 11px;
+  border: 1px solid #50cd89;
+}
+
+.bad-status {
+  padding: 2px 25px;
+  border-radius: 11px;
+  border: 1px solid red;
+}
